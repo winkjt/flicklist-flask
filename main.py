@@ -10,7 +10,7 @@ def index():
     # choose a movie by invoking our new function
     movie = get_random_movie()#
     movie2 = get_random_movie()
-    while movie2 == movie
+    while movie2 == movie:
         movie2 = get_random_movie()
 
     # build the response string
