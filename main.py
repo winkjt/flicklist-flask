@@ -18,7 +18,7 @@ def index():
     content += "<ul>"
     content += "<li>" + movie + "</li>"
     content += "</ul>"#
-    content += "</ul>"
+    
     content += "<h1>Tomorrow's Movie</h1>"
     content += "<ul>"
     content += "<li>" + movie2 + "</li>"
