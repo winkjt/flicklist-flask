@@ -10,8 +10,8 @@ def index():
     # choose a movie by invoking our new function
     movie = get_random_movie()#
     movie2 = get_random_movie()
-    while movie2 == movie:
-        movie2 = get_random_movie()
+    #while movie2 == movie:
+        #movie2 = get_random_movie()
 
     # build the response string
     content = "<h1>Movie of the Day</h1>"
@@ -30,8 +30,8 @@ def index():
 
 def get_random_movie():
     movie_list = ["Ordinary People", "Spartacus", "Training Day", "Biutiful", "Trading Places"] # TODO: make a list with at least 5 movie titles
-    selected_movie = random.choice(movie_list)
-    return selected_movie  # TODO: randomly choose one of the movies, and return it
+    #selected_movie = random.choice(movie_list)
+    return random.choice(movie_list)  # TODO: randomly choose one of the movies, and return it
     
 
 
